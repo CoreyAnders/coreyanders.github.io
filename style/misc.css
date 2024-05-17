@@ -1,6 +1,6 @@
 @media only screen and (min-width: 600px) {    
     .containerw3 {
-	display: flex;
+        display: flex;
 	overflow: hidden;
 	flex-wrap: wrap;
 	margin: -2.5px;

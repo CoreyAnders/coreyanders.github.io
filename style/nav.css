@@ -3,7 +3,7 @@ ol {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #060709;
+    background-color: #000000;
 }
 
 ol li {float: left;}
@@ -17,8 +17,8 @@ ol li a {
 }
 
 ol li a:hover {
-    border-bottom: 1px solid #f11712;
-    color: #34f9fe;
+    border-bottom: 1px solid #df0000;
+    color: #0099f6;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -29,7 +29,7 @@ ol li a:hover {
 }
 
 .active {
-    border-bottom: 1px solid #34f9fe; 
+    border-bottom: 1px solid #0099f6; 
     color: #f11712; 
     font-weight: bolder; 
     text-transform: uppercase; 
@@ -48,7 +48,7 @@ ol li a:hover {
     font-style: normal;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: -2px 2px #34f9fe;
+    text-shadow: -2px 2px #0099f6;
     
 }
 
