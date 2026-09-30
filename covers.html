@@ -1,59 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-		<meta charset="UTF-8">
-  		<meta name="viewport" content="width=device-width">
-		<title>artist at large</title>
-		<link rel="stylesheet" href="./style/nav.css">
-		<link rel="stylesheet" href="./style/main.css">
-        <link rel="stylesheet" href="./style/other.css">
-        <style>
-            body {color: white;}
-            .credit a {color: yellow;}
-            .credit a:visited {color: yellow;}
-            .credit a:active {color: red; border-bottom: 1px soild aqua;}
-            .credit a:hover {color: aqua; border-bottom: 1px solid red;}
-            </style>
-    </head>
-	<body>
-        <img src="./images/banner.png" alt="banner" class="center">
-        <ol class="bad">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="pages.html">Pages</a></li>
-            <li><a href="covers.html" class="active">Covers</a></li>
-            <li><a href="pinups.html">Pinups</a></li>
-            <li><a href="misc.html">Miscellaneous</a></li>
-            <li><a href="sticks.html">Out in the Sticks</a></li>
-        </ol>
-        <h1 class="mcu">COVERS</h1>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="./images/dccover.jpg">
-                    <img src="./images/dccover.jpg" alt="Cinque Terre" width="600" height="400">
-                </a>
-                <div class="desc">
-                    <h2>Detective Comics<sup>&copy;</sup> 732</h2>
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="./images/helblazer%20cover.jpg">
-                    <img src="./images/helblazer%20cover.jpg" alt="Cinque Terre" width="600" height="400">
-                </a>
-                <div class="desc">
-                    <h2>Hellblazer<sup>&copy;</sup> 13</h2>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix">
-        </div>
-        <div style="padding:6px;" class="credit">
-            <p>Scripts for Detective Comics 732 and Hellblazer 13 came from 
-            <a href="https://www.comicsexperience.com/scripts/" target="arvhice">Comic Book Script Arvhive</a> and are &copy; of DC Comics.</p>
-            <p>Script for Spider-Man: Devil's Advocate from <a href="https://www.penciljack.com/forum/laboratories/writing/172-sample-scripts-for-artists" target="marvel">Sample Scripts for Artists - Penciljack.com</a> and &copy; of Marvel Group</p>
-        </div>
-    </body>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <style>
+      .here {
+        text-transform: uppercase;
+        background-color: yellow;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./images/portfoliosis-removebg-preview.png" alt="banner" class="center">
+    <nav class="nav-container">
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="pages.html">Pages</a></li>
+        <li><a href="covers.html" class="here">Covers</a></li>
+        <li><a href="pinups.html">Pinups</a></li>
+        <li><a href="misc.html">Miscellaneous</a></li>
+        <li><a href="sticks.html">Out in the Sticks</a></li>
+      </ul>
+    </nav>
+    <table>
+      <tr>
+        <td><img src="./images/dccover.jpg" alt="dc" height="400"></td>
+        <td><img src="./images/helblazer cover.jpg" alt="Forest" height="400"></td>
+      </tr>
+      <tr>
+        <th>Dective Comics #732</th>
+        <th>Hellblzaer #12</th>
+      </tr>
+    </table>
+  </body>
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width">
+		<title>artist at large</title>
+		<link rel="stylesheet" href="./style/nav.css">
+		<link rel="stylesheet" href="./style/main.css">
+        <link rel="stylesheet" href="./style/other.css">
+        <style>
+            body {color: #ff4500;}
+        </style>
+    </head>
+	<body>
+        <img src="./images/banner.png" alt="banner" class="center">
+        <ol class="bad">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="covers.html">Covers</a></li>
+            <li><a href="pinups.html">Pinups</a></li>
+            <li><a href="misc.html">Miscellaneous</a></li>
+            <li><a href="sticks.html">Out in the Sticks</a></li>
+        </ol>
+        <div id="respond">
+            <h3>Leave a Comment</h3>
+            <form action="comment.php" method="post" id="commentform">
+                <label for="comment_author" class="required">Your name</label>
+                <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+                <br>
+                <label for="email" class="required">Your email;</label>
+                <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+                <br>
+                <label for="comment" class="required">Your message</label>
+                <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+                <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" /><br>
+                <input name="submit" type="submit" value="Submit comment" />
+            </form>
+            <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = htmlspecialchars($_POST['fname']);
+  if (empty($name)) {
+    echo "Name is empty";
+  } else {
+    echo $name;
+  }
+}
+?>
+        </div>
+        <div class="small"><img src="./images/lot.png" class="pot" alt="page 1"></div>
+    </body>
+</html>

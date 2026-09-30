@@ -1,77 +1,48 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-		<meta charset="UTF-8">
-  		<meta name="viewport" content="width=device-width">
-		<title>artist at large</title>
-		<link rel="stylesheet" href="./style/nav.css">
-		<link rel="stylesheet" href="./style/main.css">
-        <link rel="stylesheet" href="./style/other.css">
-    </head>
-	<body>
-        <img src="./images/banner.png" alt="banner" class="center">
-        <ol class="bad">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="pages.html">Pages</a></li>
-            <li><a href="covers.html">Covers</a></li>
-            <li><a href="pinups.html" class="active">Pinups</a></li>
-            <li><a href="misc.html">Miscellaneous</a></li>
-            <li><a href="sticks.html">Out in the Sticks</a></li>
-        </ol>
-        <h1 class="mcu">PINUPS</h1>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="./images/gein01.jpg">
-                    <img src="./images/gein01.jpg" alt="Cinque Terre" width="600" height="400">
-                </a>
-                <div class="desc">
-                    <h2>Ed Gein</h2>
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="./images/gein02.jpg">
-                <img src="./images/gein02.jpg" alt="Forest" width="600" height="400">
-                </a>
-                <div class="desc"><h2>Ed Gein</h2></div>
-            </div>
-         </div>
-         <div class="responsive">
-             <div class="gallery">
-                 <a target="_blank" href="./images/violator.jpg">
-                     <img src="./images/violator.jpg" alt="Northern Lights" width="600" height="400">
-                 </a>
-                 <div class="desc">
-                     <h2>Violator<sup>&copy;</sup></h2>
-                 </div>
-             </div>
-        </div>
-        <div class="responsive">
-              <div class="gallery">
-                <a target="_blank" href="./images/clown.jpg">
-                  <img src="./images/clown.jpg" alt="Mountains" width="600" height="400">
-                </a>
-                <div class="desc">
-                    <h2>Violator<sup>&copy;</sup></h2>
-                  </div>
-              </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="./images/madelyn.jpg">
-                    <img src="./images/madelyn.jpg" alt="Mountains" width="600" height="400">
-                </a>
-                <div class="desc">
-                    <h2>Madelyn Pryor<sup>&copy;</sup></h2>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-        <div style="padding:6px;">
-            &nbsp;
-        </div>
-    </body>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <style>
+      .here {
+        text-transform: uppercase;
+        background-color: yellow;
+        font-weight: bolder;
+      }
+      
+      th {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./images/portfoliosis-removebg-preview.png" alt="banner" class="center">
+    <nav class="nav-container">
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="pages.html">Pages</a></li>
+        <li><a href="covers.html" class="here">Covers</a></li>
+        <li><a href="pinups.html">Pinups</a></li>
+        <li><a href="misc.html">Miscellaneous</a></li>
+        <li><a href="sticks.html">Out in the Sticks</a></li>
+      </ul>
+    </nav>
+    <table>
+      <tr>
+        <td><img src="./images/gein01.jpg" alt="dc" height="400"></td>
+        <td><img src="./images/gein02.jpg" alt="Forest" height="400"></td>
+        <td><img src="./images/madelyn.jpg" alt="Forest" height="400"></td>
+        <td><img src="./images/violator.jpg" alt="Forest" height="400"></td>
+        <td><img src="./images/voorhees01.jpg" alt="Forest" height="400"></td>
+      </tr>
+      <tr>
+        <th colspan="2">ED GEIN</th>
+        <th>Madelyn Prior</th>
+        <th>Violater</th>
+        <th>Jason Voorgees</th>
+      </tr>
+    </table>
+  </body>
 </html>

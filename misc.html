@@ -1,212 +1,1095 @@
--<!DOCTYPE html>
-<html lang="fr">
-    <head>
-		<meta charset="UTF-8">
-  		<meta name="viewport" content="width=device-width">
-		<title>artist at large</title>
-		<link rel="stylesheet" href="./style/nav.css">
-		<link rel="stylesheet" href="./style/main.css">
-		<style>
-            .issue {color: #ffed10; margin-left: 15px; font-size: 10px;}
-            h1 {color: #f11712; margin-left: 15px;}
-            h2 {font-size: 20px;}
-            h3 {color: #f11712; font-size: 20px;}
-            .portrait {height: 200px;}
-            .picture {height: 200px;}
-            .landscape {height: 200px;}
-            .picture {height: 300px;}
-   
-        </style>
-    </head>
-	<body>
-        <img src="./images/banner.png" alt="banner" class="center">
-        <ol class="bad">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="pages.html">Pages</a></li>
-            <li><a href="covers.html">Covers</a></li>
-            <li><a href="pinups.html">Pinups</a></li>
-            <li><a href="misc.html" class="active">Miscellaneous</a></li>
-            <li><a href="sticks.html">Out in the Sticks</a></li>
-        </ol>
-        <h1 class="mcu">Miscellaneous</h1>
-        <p>Click on image to enlarge.</p>
-        <div id=”images-wrapper”>
-            <img alt="picture" class="picture" src="./images/2099spidey01.jpg">
-            <img alt="picture" class="picture" src="./images/angeldust.jpg">
-            <img alt="picture" class="picture" src="./images/anime01.jpg">
-            <img alt="picture" class="picture" src="./images/archie.jpg">
-            <img alt="picture" class="picture" src="./images/batgirl01.jpg">
-            <img alt="picture" class="picture" src="./images/batgirl02.jpg">
-            <img alt="picture" class="picture" src="./images/batman01.jpg">
-            <img alt="picture" class="picture" src="./images/beastboy.jpg">
-            <img alt="picture" class="picture" src="./images/blind.jpg">
-            <img alt="picture" class="picture" src="./images/bone.jpg">
-            <img alt="picture" class="picture" src="./images/bonkers01.jpg">
-            <img alt="picture" class="picture" src="./images/bonkers02.jpg">
-            <img alt="picture" class="picture" src="./images/bonkers03.jpg">
-            <img alt="picture" class="picture" src="./images/bonkers04.jpg">
-            <img alt="picture" class="picture" src="./images/bowser.jpg">
-            <img alt="picture" class="picture" src="./images/bug01.jpg">
-            <img alt="picture" class="picture" src="./images/bulldog.jpg">
-            <img alt="picture" class="picture" src="./images/cap.jpg">
-            <img alt="picture" class="picture" src="./images/cara.jpg">
-            <img alt="picture" class="picture" src="./images/cauldron.jpg">
-            <img alt="picture" class="picture" src="./images/chair.jpg">
-            <img alt="picture" class="picture" src="./images/chaplin01.jpg">
-            <img alt="picture" class="picture" src="./images/chaplin02.jpg">
-            <img alt="picture" class="picture" src="./images/chaplin03.jpg">
-            <img alt="picture" class="picture" src="./images/chin.jpg">
-            <img alt="picture" class="picture" src="./images/comedy03.jpg">
-            <img alt="picture" class="picture" src="./images/comedy01.jpg">
-            <img alt="picture" class="picture" src="./images/comedy02.jpg">
-            <img alt="picture" class="picture" src="./images/contour.jpg">
-            <img alt="picture" class="picture" src="./images/cyclops.jpg">
-            <img alt="picture" class="picture" src="./images/daffy.jpg">
-            <img alt="picture" class="picture" src="./images/darkwing.jpg">
-            <img alt="picture" class="picture" src="./images/dogs.jpg">
-            <img alt="picture" class="picture" src="./images/donald.jpg">
-            <img alt="picture" class="picture" src="./images/donald02.jpg">
-            <img alt="picture" class="picture" src="./images/donald03.jpg">
-            <img alt="picture" class="picture" src="./images/doom.jpg">
-            <img alt="picture" class="picture" src="./images/dp01.jpg">
-            <img alt="picture" class="picture" src="./images/dragon01.jpg">
-            <img alt="picture" class="picture" src="./images/ed.jpg">
-            <img alt="picture" class="picture" src="./images/eye01.jpg">
-            <img alt="picture" class="picture" src="./images/eye02.jpg">
-            <img alt="picture" class="picture" src="./images/eye03.jpg">
-            <img alt="picture" class="picture" src="./images/fallapart.jpg">
-            <img alt="picture" class="picture" src="./images/fanken01.jpg">
-            <img alt="picture" class="picture" src="./images/figures.jpg">
-            <img alt="picture" class="picture" src="./images/frankenberry.jpg">
-            <img alt="picture" class="picture" src="./images/fuzzy.jpg">
-            <img alt="picture" class="picture" src="./images/garfield.jpg">
-            <img alt="picture" class="picture" src="./images/ghibli01.jpg">
-            <img alt="picture" class="picture" src="./images/ghibli02.jpg">
-            <img alt="picture" class="picture" src="./images/gizmo.jpg">
-            <img alt="picture" class="picture" src="./images/goblin01.jpg">
-            <img alt="picture" class="picture" src="./images/gordon.jpg">
-            <img alt="picture" class="picture" src="./images/goslin.jpg">
-            <img alt="picture" class="picture" src="./images/grandpa.jpg">
-            <img alt="picture" class="picture" src="./images/greyskull.jpg">
-            <img alt="picture" class="picture" src="./images/groot01.jpg">
-            <img alt="picture" class="picture" src="./images/groot02.jpg">
-            <img alt="picture" class="picture" src="./images/hangman.jpg">
-            <img alt="picture" class="picture" src="./images/harley01.jpg">
-            <img alt="picture" class="picture" src="./images/harley02.jpg">
-            <img alt="picture" class="picture" src="./images/harley03.jpg">
-            <img alt="picture" class="picture" src="./images/harley04.jpg">
-            <img alt="picture" class="picture" src="./images/hulk01.jpg">
-            <img alt="picture" class="picture" src="./images/husk.jpg">
-            <img alt="picture" class="picture" src="./images/ichabod.jpg">
-            <img alt="picture" class="picture" src="./images/jack.jpg">
-            <img alt="picture" class="picture" src="./images/jessica.jpg">
-            <img alt="picture" class="picture" src="./images/joker001.jpg">
-            <img alt="picture" class="picture" src="./images/joker02.jpg">
-            <img alt="picture" class="picture" src="./images/joker03.jpg">
-            <img alt="picture" class="picture" src="./images/joker04.jpg">
-            <img alt="picture" class="picture" src="./images/joker05.jpg">
-            <img alt="picture" class="picture" src="./images/joker06.jpg">
-            <img alt="picture" class="picture" src="./images/joker07.jpg">
-            <img alt="picture" class="picture" src="./images/joker08.jpg">
-            <img alt="picture" class="picture" src="./images/joker09.jpg">
-            <img alt="picture" class="picture" src="./images/joker10.jpg">
-            <img alt="picture" class="picture" src="./images/kieth01.jpg">
-            <img alt="picture" class="picture" src="./images/kieth02.jpg">
-            <img alt="picture" class="picture" src="./images/kieth03.jpg">
-            <img alt="picture" class="picture" src="./images/link.jpg">
-            <img alt="picture" class="picture" src="./images/looney01.jpg">
-            <img alt="picture" class="picture" src="./images/looney02.jpg">
-            <img alt="picture" class="picture" src="./images/looney03.jpg">
-            <img alt="picture" class="picture" src="./images/looney04.jpg">
-            <img alt="picture" class="picture" src="./images/looney05.jpg">
-            <img alt="picture" class="picture" src="./images/looney06.jpg">
-            <img alt="picture" class="picture" src="./images/marvel.jpg">
-            <img alt="picture" class="picture" src="./images/marvin.jpg">
-            <img alt="picture" class="picture" src="./images/mickey.jpg">
-            <img alt="picture" class="picture" src="./images/mtpa01.jpg">
-            <img alt="picture" class="picture" src="./images/nmbc.jpg">
-            <img alt="picture" class="picture" src="./images/oc01.jpg">
-            <img alt="picture" class="picture" src="./images/oc02.jpg">
-            <img alt="picture" class="picture" src="./images/oc05.jpg">
-            <img alt="picture" class="picture" src="./images/oc06.jpg">
-            <img alt="picture" class="picture" src="./images/oc07.jpg">
-            <img alt="picture" class="picture" src="./images/oc08.jpg">
-            <img alt="picture" class="picture" src="./images/oc09.jpg">
-            <img alt="picture" class="picture" src="./images/oc10.jpg">
-            <img alt="picture" class="picture" src="./images/oc11.jpg">
-            <img alt="picture" class="picture" src="./images/oc12.jpg">
-            <img alt="picture" class="picture" src="./images/oc13.jpg">
-            <img alt="picture" class="picture" src="./images/oc14.jpg">
-            <img alt="picture" class="picture" src="./images/oc15.jpg">
-            <img alt="picture" class="picture" src="./images/orko.jpg">
-            <img alt="picture" class="picture" src="./images/penguin.jpg">
-            <img alt="picture" class="picture" src="./images/phooey.jpg">
-            <img alt="picture" class="picture" src="./images/piglet.jpg">
-            <img alt="picture" class="picture" src="./images/poe.jpg"> 
-            <img alt="picture" class="picture" src="./images/pooh01.jpg">
-            <img alt="picture" class="picture" src="./images/pooh02.jpg">
-            <img alt="picture" class="picture" src="./images/random01.jpg">
-            <img alt="picture" class="picture" src="./images/random02.jpg">
-            <img alt="picture" class="picture" src="./images/random04.jpg">
-            <img alt="picture" class="picture" src="./images/raph01.jpg">
-            <img alt="picture" class="picture" src="./images/raph02.jpg">
-            <img alt="picture" class="picture" src="./images/raven01.jpg">
-            <img alt="picture" class="picture" src="./images/robin.jpg">
-            <img alt="picture" class="picture" src="./images/roger.jpg">
-            <img alt="picture" class="picture" src="./images/rubik.jpg">
-            <img alt="picture" class="picture" src="./images/scarecrow01.jpg">
-            <img alt="picture" class="picture" src="./images/scarr.jpg">
-            <img alt="picture" class="picture" src="./images/scrooge01.jpg">
-            <img alt="picture" class="picture" src="./images/scrooge02.jpg">
-            <img alt="picture" class="picture" src="./images/scrooge03.jpg">
-            <img alt="picture" class="picture" src="./images/self01.jpg">
-            <img alt="picture" class="picture" src="./images/shadowhawk01.jpg">
-            <img alt="picture" class="picture" src="./images/shiro.jpg">
-            <img alt="picture" class="picture" src="./images/sinister.jpg">
-            <img alt="picture" class="picture" src="./images/skeletor.jpg">
-            <img alt="picture" class="picture" src="./images/sl01.jpg">
-            <img alt="picture" class="picture" src="./images/sl02.jpg">
-            <img alt="picture" class="picture" src="./images/sl03.jpg">
-            <img alt="picture" class="picture" src="./images/sl04.jpg">
-            <img alt="picture" class="picture" src="./images/space.jpg">
-            <img alt="picture" class="picture" src="./images/spawn.jpg">
-            <img alt="picture" class="picture" src="./images/spawn02.jpg">
-            <img alt="picture" class="picture" src="./images/spide01.jpg">
-            <img alt="picture" class="picture" src="./images/stan01.jpg">
-            <img alt="picture" class="picture" src="./images/starfire01.jpg">
-            <img alt="picture" class="picture" src="./images/stitch.jpg">
-            <img alt="picture" class="picture" src="./images/supes.jpg">
-            <img alt="picture" class="picture" src="./images/symbiote.jpg">
-            <img alt="picture" class="picture" src="./images/texas.jpg">
-            <img alt="picture" class="picture" src="./images/tf01.jpg">
-            <img alt="picture" class="picture" src="./images/tf02.jpg">
-            <img alt="picture" class="picture" src="./images/thundercats01.jpg">
-            <img alt="picture" class="picture" src="./images/tigger01.jpg">
-            <img alt="picture" class="picture" src="./images/tigger02.jpg">
-            <img alt="picture" class="picture" src="./images/tigger02.jpg">
-            <img alt="picture" class="picture" src="./images/timmy.jpg">
-            <img alt="picture" class="picture" src="./images/titanic1.jpg">
-            <img alt="picture" class="picture" src="./images/titanic2.jpg">
-            <img alt="picture" class="picture" src="./images/tmnt01.jpg">
-            <img alt="picture" class="picture" src="./images/toons.jpg">
-            <img alt="picture" class="picture" src="./images/toons041.jpg">
-            <img alt="picture" class="picture" src="./images/tracy.jpg">
-            <img alt="picture" class="picture" src="./images/tracy01.jpg">
-            <img alt="picture" class="picture" src="./images/twizted.jpg">
-            <img alt="picture" class="picture" src="./images/under.jpg">
-            <img alt="picture" class="picture" src="./images/voorhees01.jpg">
-            <img alt="picture" class="picture" src="./images/wednesday01.jpg">
-            <img alt="picture" class="picture" src="./images/wednesday02.jpg">
-            <img alt="picture" class="picture" src="./images/wednesday03.jpg">
-            <img alt="picture" class="picture" src="./images/wednesday04.jpg">
-            <img alt="picture" class="picture" src="./images/wednesday05.jpg">
-            <img alt="picture" class="picture" src="./images/wednesday06.jpg">
-            <img alt="picture" class="picture" src="./images/wolverine001.jpg">
-            <img alt="picture" class="picture" src="./images/wonka.jpg">
-            <img alt="picture" class="picture" src="./images/yoda.jpg">
-            <img alt="picture" class="picture" src="./images/zim.jpg">
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+      
+      div.gallery-item {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 180px;
+      }
+      
+      div.gallery-item:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery-item img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.gallery-item div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+	<img sec="./images/portfoliosis-removebg-preview.png">
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+            <a target="_blank" href="./images/2099spidey01.jpg">
+          <img src="./images/2099spidey01.jpg" alt="dc" width="600" height="400">
+        </a>
+        <div class="desc">Spider-Man 2099</div>
+      </div>
+      <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+          <img src="./images/angeldust.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Angel Dust</div>
+      </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/anime01.jpg">
+                <img src="./images/anime01.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Anime9</div>
         </div>
-    </body>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/archie.jpg">
+                <img src="./images/archie.jpg" alt="dc" width="600" height="400">
+          </a>
+          <div class="desc">Archie</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/batgirl01.jpg" alt="dc" width="600" height="400">
+            </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/batgirl02.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/batman01.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/beastboy.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/blind.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bone.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bonkers01.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bonkers02.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bonkers03.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bonkers04.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bowser.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bug01.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/bulldog.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/cap.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/cara.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/cauldron.jpg" alt="dc" width="600" height="400">
+            </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+                <a target="_blank" href="./images/angeldust.jpg">
+                    <img src="./images/chair.jpg" alt="dc" width="600" height="400">
+                </a>
+          <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/chaplin01.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg"> 
+                <img src="./images/chaplin02.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/chaplin03.jpg" alt="dc" width="600" height="400">                 
+            </a>           
+            <div class="desc">Spider-Man 2099</div>         
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg"> 
+                <img src="./images/chin.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/comedy03.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/comedy01.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/comedy02.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/contour.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/cyclops.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item"> 
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/daffy.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item"> 
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/darkwing.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/dogs.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/donald.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                    <img src="./images/donald02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/donald03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/doom.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/dp01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/dragon01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/ed.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/eye01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/eye02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/eye03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/fallapart.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/fanken01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/figures.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/frankenberry.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/fuzzy.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/garfield.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/ghibli01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/ghibli02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/gizmo.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/goblin01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/gordon.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/goslin.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/grandpa.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/greyskull.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/groot01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/groot02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/hangman.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/harley01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/harley02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/harley03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/harley04.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/hulk01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/husk.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/ichabod.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/jack.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/jessica.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker001.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker04.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker05.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker06.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker07.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker08.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker09.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/joker10.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/kieth01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/kieth02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/kieth03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/link.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/looney01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/looney02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/looney03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/looney04.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/looney05.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/looney06.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/marvel.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/marvin.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/mickey.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/mtpa01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/nmbc.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc05.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc06.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc07.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc08.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc09.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc10.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc11.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc12.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc13.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc14.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/oc15.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/orko.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/penguin.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/phooey.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/piglet.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/poe.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div> 
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/pooh01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/pooh02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/random01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/random02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/random04.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/raph01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/raph02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/raven01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/robin.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/roger.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/rubik.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/scarecrow01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/scarr.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/scrooge01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/scrooge02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/scrooge03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/self01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/shadowhawk01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/shiro.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/sinister.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/skeletor.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/sl01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/sl02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/sl03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/sl04.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/space.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/spawn.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/spawn02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/spide01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/stan01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/starfire01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/stitch.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/supes.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/symbiote.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/texas.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/tf01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/tf02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/thundercats01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/tigger01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/tigger02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/tigger02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/timmy.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/titanic1.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/titanic2.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+                <img src="./images/tmnt01.jpg" alt="dc" width="600" height="400">
+            </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/toons.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/toons041.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/tracy.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/tracy01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/twizted.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/under.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/voorhees01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wednesday01.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wednesday02.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wednesday03.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wednesday04.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wednesday05.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wednesday06.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wolverine001.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/wonka.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/yoda.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="./images/angeldust.jpg">
+            <img src="./images/zim.jpg" alt="dc" width="600" height="400">
+                </a>
+            <div class="desc">Spider-Man 2099</div>
+        </div>
+      </div>
+  </body>
 </html>
+        
+            
+
